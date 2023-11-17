@@ -10,4 +10,3 @@ mv $1 .conflose
 rm binary
 mv binary.c .conflose
 mv binary.sh .conflose
-

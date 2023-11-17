@@ -1,0 +1,17 @@
+This conflose will hide a file in a hidden directory, and replace it with a file in which you have the binary representation of all the caracters of your original file.
+
+Guide:
+
+Write in your terminal :
+
+	chmod +x binary.sh
+
+(It gives the permission to binary.sh to be executed).
+
+Then to execute the conflose write :
+
+	./binary.sh <filename>
+
+<filename> is the name of the file you want to hide and replace (NOT THE PATH! just the name).
+
+Now everithing should be okay!
