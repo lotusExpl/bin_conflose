@@ -1,10 +1,9 @@
 #!/bin/sh
 mv binary.c ..
 mv binary.sh ..
-rm -rf bin_conflose
 cd ..
+rm -rf bin_conflose
 mkdir .conflose
-cd bin_conflose
 gcc binary.c -o binary
 ./binary $1
 mv $1 .conflose
